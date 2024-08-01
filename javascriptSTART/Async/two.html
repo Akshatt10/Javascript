@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Akshat Tyagi</h1>
+    <button id="btn">Stop</button>
+</body>
+<script>
+    const saymyname = function(){
+        console.log("Akshat");
+    }
+    const changetext = function(){
+        document.querySelector('h1').innerHTML = 'Starting dev'
+    }
+    //setTimeout(saymyname, 2000)
+    const changeme = setTimeout(changetext, 2000)
+    document.querySelector('#btn').addEventListener('click', function(){
+        clearTimeout(changeme)
+        console.log('Stopped')
+    })
+
+</script>
+</html>

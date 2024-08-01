@@ -1,0 +1,42 @@
+/* p{   Alignment  */
+    /* text-align: center;
+} */
+
+
+a{
+    text-decoration: none;
+}
+/* Values for font
+lighter -> darker range from 100-900    
+bold = 400
+if want below 400 choose lighter
+else choose bolder */
+
+
+/* #h1{
+    font-weight: 100;
+}
+
+#h2{
+    font-weight: 200;
+}
+
+#h3{
+    font-weight: 400;
+}
+
+#h4{
+    font-weight: 900;
+
+} */
+
+#one{
+    font-family: Arial;
+    font-size: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+#two{
+    font-family: Times New Roman;
+}
